@@ -114,20 +114,25 @@ img:hover{
     }
 }
 @media only screen and (max-width: 450px){
+    
     h1{
         font-size: 25px;
     }
     .choices{
         flex-direction: column;
-        margin-top: 2rem;
+        margin-top: 1rem;
         gap: 1rem;
     } 
     .score-board{
+        margin-top: 2rem;
         font-size: 1.5rem;
         gap:5rem;
     }
     #user-score,#comp-score{
         font-size: 2rem;
+    }
+    .msg-container{
+        margin-top: 2rem;
     }
     #msg{
         font-size: 1rem;
